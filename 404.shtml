@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="hblogotransparent.ico">
+    <title>Page Not Found | HypeBolt Studios</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #181818;
+            color: #F5EA76;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 85vh;
+        }
+
+        /* Title Styles */
+        h1 {
+            font-size: 6rem;
+            font-weight: bold;
+            margin: 0;
+            color: #F5EA76;
+        }
+
+        /* Subtitle Styles */
+        p {
+            font-size: 1.5rem;
+            margin: 10px 0 30px;
+        }
+
+        /* Button Styles */
+        a {
+            padding: 15px 30px;
+            background-color: #F5EA76;
+            color: #181818;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+            margin-top: 30px;
+        }
+        a:hover {
+            background-color: #e6d46a;
+        }
+
+        .red {
+            color: #ff0000;
+        }
+
+        .white {
+            color: white;
+        }
+
+        /* Animation (Optional Spark) */
+        .spark {
+            font-size: 8rem;
+            color: #F5EA76;
+            animation: flicker 1.5s infinite;
+        }
+
+        .button {
+            margin-top: 20;
+        }
+
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.6; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="red">404</h1>
+        <p class="white">The page you are looking for doesn't exist or has been deleted.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GSOi1kV0hjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+    <div>
+        <p></p>
+    </div>
+    <div>
+         <a href="/" class="button">Home</a>
+    </div>
+</body>
+</html>
